@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <section id="projects">
-      <div className="px-4 lg:px-0 py-32">
+      <div className="px-4 lg:px-0 mt-32">
         <div>
           <h2 className="font-serif font-bold text-2xl text-center">
             Gauge does more with data.
