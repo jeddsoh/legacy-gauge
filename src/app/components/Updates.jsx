@@ -14,7 +14,7 @@ export default function Updates() {
           </span>
         </a>
         <div className="mt-8">
-          <div className="grid grid-cols-3 rounded border-l-4 border-purple-500 relative">
+          <div className="grid grid-cols-3 rounded-sm border-l-2 border-purple-500 relative">
             
             {/* Noise Overlay */}
             <div
@@ -107,7 +107,7 @@ export default function Updates() {
               <Image className="object-cover" src="/images/cow.webp" alt="Cow Image" fill={true} />
             </div>
           </div>
-          <div className="mt-6 grid grid-cols-3 rounded border-l-4 border-purple-500 relative">
+          <div className="mt-6 grid grid-cols-3 rounded-sm border-l-2 border-purple-500 relative">
             {/* Noise Overlay */}
             <div
               className="absolute inset-0 -z-10 h-full w-full mix-blend-overlay"

@@ -1,5 +1,7 @@
 import './globals.css';
 import { IBM_Plex_Sans, IBM_Plex_Serif, IBM_Plex_Mono } from 'next/font/google';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 const IBMSans = IBM_Plex_Sans({
   subsets: ['latin'],
@@ -30,7 +32,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${IBMSans.variable} ${IBMSerif.variable} ${IBMMono.variable}`}>
-      <body className='bg-neutral-950 text-neutral-50 font-sans'>{children}</body>
+      <body className='bg-neutral-950 text-neutral-50 font-sans relative'>
+        <Navbar />
+        {children}
+      <Footer />
+      </body>
     </html>
   )
 }

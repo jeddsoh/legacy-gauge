@@ -1,10 +1,11 @@
+'use client'
 import Image from "next/image";
 
 export default function Services() {
   return (
     <section className="-mt-14 relative z-10 pb-32">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center gap-12 px-4 lg:px-0">
-        <div id="research" className="shadow-md relative p-14 rounded overflow-hidden border-l-4 border-eggplant-500 flex flex-col gap-14 lg:flex-row lg:items-center w-full justify-between">
+        <div id="research" className="shadow-md relative p-14 rounded-sm overflow-hidden border-l-2 border-eggplant-500 flex flex-col gap-14 lg:flex-row lg:items-center w-full justify-between">
           {/* Noise Overlay */}
           <div
             className="absolute inset-0 -z-10 h-full w-full opacity-5"
@@ -49,6 +50,7 @@ export default function Services() {
               <a
                 href=""
                 className="group cursor-pointer flex gap-2 items-center"
+                
               >
                 <p className="group-hover:text-eggplant-500 transition-colors font-medium">
                   Specialty Recruitment
@@ -147,7 +149,7 @@ export default function Services() {
             </li>
           </ul>
         </div>
-        <div id="strategy" className="shadow-md relative p-14 rounded overflow-hidden border-l-4 border-red-500 flex flex-col gap-14 lg:flex-row lg:items-center w-full justify-between">
+        <div id="strategy" className="shadow-md relative p-14 rounded-sm overflow-hidden border-l-2 border-red-500 flex flex-col gap-14 lg:flex-row lg:items-center w-full justify-between">
           {/* Noise Overlay */}
           <div
             className="absolute inset-0 -z-10 h-full w-full opacity-5"
@@ -278,7 +280,7 @@ export default function Services() {
             </li>
           </ul>
         </div>
-        <div id="design" className="shadow-md relative p-14 rounded overflow-hidden border-l-4 border-cyan-500 flex flex-col gap-14 lg:flex-row lg:items-center w-full justify-between">
+        <div id="design" className="shadow-md relative p-14 rounded-sm overflow-hidden border-l-2 border-cyan-500 flex flex-col gap-14 lg:flex-row lg:items-center w-full justify-between">
           {/* Noise Overlay */}
           <div
             className="absolute inset-0 -z-10 h-full w-full opacity-5"
@@ -294,7 +296,7 @@ export default function Services() {
           <div>
             <svg
               className="text-cyan-500"
-             width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+             width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.46001 21.74L21.25 6.95L17.55 3.25L2.75999 18.04L2.75 21.75L6.46001 21.74Z" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M15.3496 6.62988L17.8696 9.14987" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

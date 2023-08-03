@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <section id="footer" className="border-t-4 border-mandarin-500">
+    <footer id="footer" className="border-t-2 border-mandarin-500">
       <div className="max-w-screen-xl mx-auto py-14">
         <div className="flex justify-between items-start">
           <Image
@@ -484,6 +484,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

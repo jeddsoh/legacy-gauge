@@ -10,7 +10,7 @@ export default function Projects() {
           </h2>
         </div>
         <div className="mt-12 grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 gap-12 max-w-screen-xl mx-auto">
-          <div className="p-14 rounded overflow-hidden border-t-4 border-mandarin-500 relative">
+          <div className="p-14 rounded-sm overflow-hidden border-t-2 border-mandarin-500 relative">
             {/* Noise Overlay */}
             <div
               className="absolute inset-0 -z-10 h-full w-full mix-blend-overlay"
@@ -79,7 +79,7 @@ export default function Projects() {
               </svg>
             </a>
           </div>
-          <div className="p-14 rounded overflow-hidden border-t-4 border-mandarin-500 relative">
+          <div className="p-14 rounded-sm overflow-hidden border-t-2 border-mandarin-500 relative">
             {/* Noise Overlay */}
             <div
               className="absolute inset-0 -z-10 h-full w-full mix-blend-overlay"
